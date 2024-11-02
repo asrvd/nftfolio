@@ -32,8 +32,8 @@ git clone https://github.com/asrvd/nftFolio.git
 2. Setup supabase project
 - Create a new project on [Supabase](https://supabase.com/)
 - Head over to project settings and get the following ENV variables
-  - `NEXT_PUBLIC_SUPABASE_URL` under Settings > API
-  - `NEXT_PUBLIC_SUPABASE_ANON_KEY` under Settings > API
+  - `SUPABASE_URL` under Settings > API
+  - `SUPABASE_ANON_KEY` under Settings > API
   - `DATABASE_URL` under Settings > Database
 - Create a new storage bucket named `nfts`, make it public
 - Add following RLS policies to the `nfts` bucket, make sure you selected `Authenticated` in target roles, and `INSERT`, `UPDATE`, `DELETE` from allowed operations
