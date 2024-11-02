@@ -177,7 +177,7 @@ export default function CreateAssetDialog({
                       </button>
                     </div>
                   ) : (
-                    <label className="flex flex-col items-center justify-center w-full h-64 border border-dashed shadow-sm border-input rounded-lg cursor-pointer hover:bg-zinc-50 focus-visible:ring-1 focus-visible:ring-ring">
+                    <label className="flex flex-col items-center justify-center w-full h-64 border border-dashed shadow-sm border-input rounded-lg cursor-pointer hover:bg-accent focus-visible:ring-1 focus-visible:ring-ring">
                       <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <Upload className="w-10 h-10 text-zinc-400" />
                         <p className="mt-2 text-sm text-zinc-500">

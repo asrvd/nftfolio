@@ -15,7 +15,7 @@ export default function AssetGallery({
 
   return (
     <div className="w-full grid grid-cols-1 gap-4 lg:grid-cols-3">
-      {isLoading && (
+      {isLoading && !data && (
         <>
           <div className="flex flex-col gap-2 p-4 bg-card border border-border rounded-lg shadow-sm animate-pulse">
             <div className="aspect-square rounded-lg border border-border bg-accent" />
@@ -62,6 +62,11 @@ export default function AssetGallery({
             </div>
           </Link>
         ))}
+      {data && data.length === 0 && (
+          <p className="text-muted-foreground">
+            You don't have any assets yet. Create one now!
+          </p>
+      )}
     </div>
   );
 }
