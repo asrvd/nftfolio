@@ -34,7 +34,7 @@ export default function RootLayout({
               <Footer />
               {/* react-hot-toast */}
               <Toaster
-                position="bottom-right"
+                position="top-center"
                 gutter={8}
                 toastOptions={{
                   duration: 5000,
