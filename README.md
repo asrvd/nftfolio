@@ -1,6 +1,8 @@
 # nftFolio
 A simple web app to create, manage, and find digital assets (Simulated blockchain).
 
+![nftFolio](images/ss2.jpeg)
+
 # Tech stack
 - Next.js
 - Tailwind CSS
