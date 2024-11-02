@@ -37,7 +37,7 @@ git clone https://github.com/asrvd/nftFolio.git
   - `DATABASE_URL` under Settings > Database
 - Create a new storage bucket named `nfts`, make it public
 - Add following RLS policies to the `nfts` bucket, make sure you selected `Authenticated` in target roles, and `INSERT`, `UPDATE`, `DELETE` from allowed operations
-![Add RLS policy to bucket](ss1.png)
+![Add RLS policy to bucket](images/ss1.png)
 ```sql
 ((bucket_id = 'nfts') AND (auth.role() = 'authenticated'))
 ```
