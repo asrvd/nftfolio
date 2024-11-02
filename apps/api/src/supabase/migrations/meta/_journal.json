@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1730389406382,
+      "tag": "0000_rapid_shotgun",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1730466657171,
+      "tag": "0001_daily_lady_mastermind",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1730467841330,
+      "tag": "0002_strong_rumiko_fujikawa",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1730468834201,
+      "tag": "0003_loose_ted_forrester",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1730469785915,
+      "tag": "0004_abandoned_black_crow",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1730475865880,
+      "tag": "0005_ordinary_baron_strucker",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1730540157638,
+      "tag": "0006_previous_lila_cheney",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1730541175155,
+      "tag": "0008_lethal_mister_sinister",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1730541517226,
+      "tag": "0010_furry_sleepwalker",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1730541719849,
+      "tag": "0011_dark_toxin",
+      "breakpoints": true
+    }
+  ]
+}

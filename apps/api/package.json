@@ -1,0 +1,40 @@
+{
+  "name": "@repo/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "tsx watch src/app.ts",
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/",
+    "db:gen": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:pull": "drizzle-kit pull"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@supabase/supabase-js": "^2.46.1",
+    "@trpc/server": "11.0.0-rc.604",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.0",
+    "fastify": "^5.0.0",
+    "postgres": "^3.4.5",
+    "superjson": "latest",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "drizzle-kit": "^0.27.0",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "5.5.4"
+  }
+}
