@@ -18,11 +18,10 @@ export const assetRouter = router({
     )
     .query(async ({ input }) => {
       try {
-        console.log(input);
         if (input.searchQuery) {
           return await db.query.assets.findMany({
             where: (assets, { or, ilike }) =>
-              or(
+              or( // search by name, id, description, owner email
                 ilike(assets.name, `%${input.searchQuery}%`),
                 sql`CAST(${assets.id} AS TEXT) ILIKE ${`%${input.searchQuery}%`}`,
                 ilike(assets.description, `%${input.searchQuery}%`),
